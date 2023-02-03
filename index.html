@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice and Fire API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="row">
+
+   <input class="search-bar" oninput="filter(this)" type="text" id="search-field" placeholder="search for a book">
+   <div>
+   <p class="pagination"> Page No:</p>
+   <button onclick="getPage1()" class="btn-all">1</button>
+    <button onclick="getPage2()" class="btn-all">2</button>
+    <button onclick="getPage3()" class="btn-all">3</button>
+    <button onclick="getPage4()" class="btn-all">4</button>
+    <button onclick="getPage5()" class="btn-all">5</button>
+    
+</div>
+</div> 
+    <div id="booksContainer"></div>
+    
+<script src="script.js"></script>
+</body>
+</html>
